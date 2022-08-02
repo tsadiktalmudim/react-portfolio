@@ -15,7 +15,7 @@ function App() {
       <div className="content">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/react-portfolio" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           {/* <Route path="/links" element={<Links />} /> */}
           <Route path="/contact" element={<Contact />} />
