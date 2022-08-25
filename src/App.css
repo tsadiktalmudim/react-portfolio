@@ -27,6 +27,7 @@ a:hover {
 .profile {
   width: 100%;
   height: auto;
+  border-radius: 9%;
 }
 
 .App {
@@ -119,7 +120,11 @@ footer {
 
 .social-menu .i:hover {
   opacity: 0.7;
-  border-radius: 0;
+  border-radius: 5%;
+}
+
+.resume {
+  background: #000;
 }
 
 .fa-facebook {
