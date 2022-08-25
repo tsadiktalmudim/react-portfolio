@@ -1,12 +1,12 @@
 import React from "react";
-import { Grid} from "@mui/material";
+import { Grid } from "@mui/material";
 import Gahjus from "../assets/images/GAHJUS.jpg";
 
 export default function Home() {
   return (
     <>
       <Grid container alignItems="center">
-        <Grid xs={3}>
+        <Grid md={3} sm={12}>
           <img
             style={{ padding: 20 }}
             src={Gahjus}
@@ -14,8 +14,8 @@ export default function Home() {
             className="profile"
           ></img>
         </Grid>
-        <Grid xs={2}></Grid>
-        <Grid xs={6}>
+        <Grid md={2} sm={0}></Grid>
+        <Grid md={6} sm={12}>
           <p>
             First and foremost, I am a father of five and a husband to my
             gorgeous wife. Secondly, I love all things food and music.
@@ -33,25 +33,26 @@ export default function Home() {
             all of those areas.
           </p>
         </Grid>
-        <Grid xs={1}></Grid>
+        <Grid md={1} sm={0}></Grid>
         <Grid container justifyContent="center" alignItems="center">
-          <Grid xs={3} style={{ padding: 20 }}>
+          <Grid md={3} sm={12} style={{ padding: 20 }}>
             <h2>Skills:</h2>
           </Grid>
-          <Grid xs={2}></Grid>
-          <Grid xs={6}>
+          <Grid md={2} sm={0}></Grid>
+          <Grid md={6} sm={12}>
             <p>
-            <h4>Languages:</h4> JavaScript ES6+, CSS3, HTML5, SQL, NoSQL
-              </p>
-              <p><h4>Applications:</h4>
+              <h4>Languages:</h4> JavaScript ES6+, CSS3, HTML5, SQL, NoSQL
+            </p>
+            <p>
+              <h4>Applications:</h4>
               GitHub, MongoDB, MySQL, Heroku, JawsDB
-              </p>
-              <p><h4>Tools:</h4> Express, React,
-              Node, Handlebars, Query, Bootstrap, Material UI, jQuery,
-              Sequelize, etc.
+            </p>
+            <p>
+              <h4>Tools:</h4> Express, React, Node, Handlebars, Query,
+              Bootstrap, Material UI, jQuery, Sequelize, etc.
             </p>
           </Grid>
-          <Grid xs={1}></Grid>
+          <Grid md={1} sm={0}></Grid>
         </Grid>
       </Grid>
     </>
