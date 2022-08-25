@@ -139,20 +139,36 @@ footer {
   position: relative;
   text-align: center;
   color: white;
+  padding: 10px;
 }
 
-.container img:hover {
-  opacity: 50%;
+.large img {
+  width: 100%;
+  height: auto;
   border: #000 solid 1px;
 }
 
-.info-lg {
-  position: absolute;
-  bottom: 5px;
-  left: 110px;
+.large img:hover {
+  opacity: 50%;
 }
-.info {
+
+.small img {
+  width: 100%;
+  height: auto;
+  border: #000 solid 1px;
+}
+
+.small img:hover {
+  opacity: 50%;
+}
+
+.proname-lg {
   position: absolute;
   bottom: 25px;
-  left: 150px;
+  left: 20px;
+}
+.proname{
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
 }
