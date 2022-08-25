@@ -24,6 +24,11 @@ a:hover {
   width: 1200vh;
 }
 
+.profile {
+  width: 100%;
+  height: auto;
+}
+
 .App {
   text-align: center;
 }
@@ -145,7 +150,6 @@ footer {
   position: absolute;
   bottom: 5px;
   left: 110px;
-
 }
 .info {
   position: absolute;
