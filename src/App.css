@@ -167,12 +167,16 @@ footer {
   opacity: 50%;
 }
 
+.info {
+  padding: 10px;
+}
+
 .proname-lg {
   position: absolute;
   bottom: 25px;
   left: 20px;
 }
-.proname{
+.proname {
   position: absolute;
   bottom: 25px;
   left: 20px;

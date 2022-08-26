@@ -16,7 +16,7 @@ export default function Projects() {
           <div className="proname-lg">BabelFish Translator Chat App</div>
         </a>
       </Grid>
-      <Grid md={2} sm={12}>
+      <Grid md={2} sm={12} className="info">
         <p>
           Chat app that translates in real time between an unlimited amount of
           users
@@ -36,7 +36,7 @@ export default function Projects() {
           <div className="proname">Voyager Space API</div>
         </a>
       </Grid>
-      <Grid md={2} sm={12}>
+      <Grid md={2} sm={12} className="info">
         <p>
           Space tracker website using a REST API with current space data
           including launches, astronauts, etc.
@@ -53,7 +53,7 @@ export default function Projects() {
           <div className="proname">Crescendo Music Sharing App</div>
         </a>
       </Grid>
-      <Grid md={2} sm={12}>
+      <Grid md={2} sm={12} className="info">
         <p>
           Space tracker website using a REST API with current space data
           including launches, astronauts, etc.
@@ -72,7 +72,7 @@ export default function Projects() {
           <div className="proname">Weather Dashboard</div>
         </a>
       </Grid>
-      <Grid md={2} sm={12}>
+      <Grid md={2} sm={12} className="info">
         <p>
           Weather app that allows you to search a city and receive its 5-day
           forecast
@@ -87,7 +87,7 @@ export default function Projects() {
           <div className="proname">Random Password Generator</div>
         </a>
       </Grid>
-      <Grid md={2} sm={12}>
+      <Grid md={2} sm={12} className="info">
         <p>
           Random password generator that allows you to choose length and
           character type for a randomly generated password
