@@ -14,7 +14,7 @@ export default function Home() {
           ></img>
         </Grid>
         <Grid md={2} sm={0}></Grid>
-        <Grid md={6} sm={12}>
+        <Grid md={6} sm={12} style={{ padding: 10}}>
           <p>
             First and foremost, I am a father of five and a husband to my
             gorgeous wife. Secondly, I love all things food and music.
@@ -38,7 +38,7 @@ export default function Home() {
             <h2>Skills:</h2>
           </Grid>
           <Grid md={2} sm={0}></Grid>
-          <Grid md={6} sm={12}>
+          <Grid md={6} sm={12} style={{ padding: 10 }}>
             <p>
               <h4>Languages:</h4> JavaScript ES6+, CSS3, HTML5, SQL, NoSQL
             </p>
