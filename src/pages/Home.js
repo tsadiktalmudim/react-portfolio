@@ -8,7 +8,6 @@ export default function Home() {
       <Grid container alignItems="center">
         <Grid md={3} sm={12}>
           <img
-            style={{ padding: 20 }}
             src={Gahjus}
             alt="profile"
             className="profile"
