@@ -27,7 +27,9 @@ export default function Projects() {
           Socket.IO, Express, MongoDB, Google Translate, JWT, Heroku, JawsDB,
           etc.
         </p>
-        <p><a href="https://github.com/jrj-sys/BabelFish">GitHub Repo</a></p>
+        <p>
+          <a href="https://github.com/jrj-sys/BabelFish">GitHub Repo</a>
+        </p>
       </Grid>
       <Grid md={1} sm={12}></Grid>
       <Grid item className="container small" md={3} sm={12}>
@@ -45,7 +47,11 @@ export default function Projects() {
         <p>
           Tools: HTML, CSS, JS, W3CSS, GoogleFonts, jQuery, jQueryUI, MomentJS
         </p>
-        <p><a href="https://github.com/tsadiktalmudim/Project-1-Team-Voyager">GitHub Repo</a></p>
+        <p>
+          <a href="https://github.com/tsadiktalmudim/Project-1-Team-Voyager">
+            GitHub Repo
+          </a>
+        </p>
       </Grid>
       <Grid item className="container small" md={3} sm={12}>
         <img src={crescendo} alt="crescendo app"></img>
@@ -55,14 +61,19 @@ export default function Projects() {
       </Grid>
       <Grid md={2} sm={12} className="info">
         <p>
-          Space tracker website using a REST API with current space data
-          including launches, astronauts, etc.
+          Music social media app that allows you to create your own playlists,
+          like, comment and share other peoples' playlists, with future
+          development in adding friends.
         </p>
         <p>Role: Collaborator (Front and back end)</p>
         <p>
           Tools: HTML, CSS, JS, W3CSS, GoogleFonts, jQuery, jQueryUI, MomentJS
         </p>
-        <p><a href="https://github.com/laynewegenast/proj-2-music-site">GitHub Repo</a></p>
+        <p>
+          <a href="https://github.com/laynewegenast/proj-2-music-site">
+            GitHub Repo
+          </a>
+        </p>
       </Grid>
       <Grid md={1} sm={12}></Grid>
       <Grid md={1} sm={12}></Grid>
@@ -79,7 +90,11 @@ export default function Projects() {
         </p>
         <p>Role: Collaborator (Front and back end)</p>
         <p>Tools: HTML, CSS, W3CSS, JS, jQuery, OpenWeather API, locaStorage</p>
-        <p><a href="https://github.com/tsadiktalmudim/weather-dashboard">GitHub Repo</a></p>
+        <p>
+          <a href="https://github.com/tsadiktalmudim/weather-dashboard">
+            GitHub Repo
+          </a>
+        </p>
       </Grid>
       <Grid item className="container small" md={3} sm={12}>
         <img src={passwordGenerator} alt="babelfish app"></img>
@@ -94,7 +109,11 @@ export default function Projects() {
         </p>
         <p>Role: Sole Author</p>
         <p>Tools: HTML, CSS, JS</p>
-        <p><a href="https://github.com/tsadiktalmudim/password-generator">GitHub Repo</a></p>
+        <p>
+          <a href="https://github.com/tsadiktalmudim/password-generator">
+            GitHub Repo
+          </a>
+        </p>
       </Grid>
     </Grid>
   );

@@ -18,7 +18,7 @@ export default function Footer() {
       </div>
       <div className="righty">
         <div className="social-menu">
-          <a href="https://docs.google.com/document/d/1yHvR1-Z24KWBlg-bggg9rumox6zUFqVdh0VKMceKoKw/edit">
+          <a href="https://docs.google.com/document/d/1kalCVYdASWhFRHHUPTB9STVayS0Tx50VwsDXwIuJH5A/edit?usp=sharing">
             <FontAwesomeIcon className="i resume" icon={faFile} />
           </a>
           <a href="https://www.facebook.com/xan.hamilton.7/">

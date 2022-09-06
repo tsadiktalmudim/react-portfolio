@@ -31,7 +31,9 @@ export default function Header() {
             <Link to="/contact">Contact</Link>
           </Button>
           <Button>
-            <a href="https://docs.google.com/document/d/1yHvR1-Z24KWBlg-bggg9rumox6zUFqVdh0VKMceKoKw/edit">Resumé</a>
+            <a href="https://docs.google.com/document/d/1kalCVYdASWhFRHHUPTB9STVayS0Tx50VwsDXwIuJH5A/edit?usp=sharing">
+              Resumé
+            </a>
           </Button>
         </Stack>
       </Grid>
